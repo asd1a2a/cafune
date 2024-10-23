@@ -1,0 +1,97 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: "Dancing Script", cursive;
+	font-optical-sizing: auto;
+	font-weight: 600;
+	font-style: normal;
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+ul,
+ol {
+	list-style: none;
+}
+
+header {
+	width: 100%;
+	height: 140px;
+	background-color: #fff;
+	display: flex;
+	flex-flow: column nowrap;
+	align-items: center;
+}
+
+header .t-header {
+	width: 100%;
+	height: 100px;
+	max-width: 1920px;
+	min-width: 1500px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	box-sizing: border-box;
+	position: relative;
+	top: 0;
+}
+
+header .t-header .login-header {
+	position: absolute;
+	left: 50px;
+	width: 150px;
+	line-height: 100px;
+	font-size: 25px;
+	display: flex;
+	justify-content: space-around;
+}
+
+header .t-header h1 {
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	box-sizing: border-box;
+}
+
+header .t-header .my-page-header {
+	position: absolute;
+	right: 50px;
+}
+
+header .b-header {
+	width: 100%;
+	height: 35px;
+	max-width: 1920;
+	min-width: 1500px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 0 50px;
+	box-sizing: border-box;
+}
+
+header .b-header .b-header-ul {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: space-around;
+}
+
+header .b-header .b-header-ul li .menu {
+	padding: 5px 10px;
+	box-sizing: border-box;
+	line-height: 35px;
+	box-sizing: border-box;
+	font-size: 20px;
+}
+
+.menu-color {
+	color: #d76831;
+}
+
+.menu-under-bar {
+	border-bottom: 1.5px solid #d76831;
+}

@@ -1,0 +1,204 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: "Dancing Script", cursive;
+	font-optical-sizing: auto;
+	font-weight: 600;
+	font-style: normal;
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+ul,
+ol {
+	list-style: none;
+}
+
+.section-01 {
+	position: relative;
+	width: 100%;
+	min-width: 1500px;
+}
+
+.section-01 .mySwiper {
+	width: 100%;
+	position: relative;
+	z-index: 1;
+}
+
+.section-01 .mySwiper .swiper-slide {
+	width: 100%;
+}
+
+.section-01 .mySwiper .swiper-slide img {
+	width: 100%;
+	object-fit: cover;
+}
+
+.section-01 .rotate-cafune {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+
+.section-01 .rotate-cafune .cafune {
+	position: absolute;
+	z-index: 100;
+	right: 50px;
+	bottom: 50px;
+}
+
+.section-01 .rotate-cafune .rotate-lang {
+	position: absolute;
+	z-index: 100;
+	right: 29px;
+	bottom: 28px;
+	animation: rotate 8s infinite linear;
+}
+
+@keyframes rotate {
+	from {
+		rotate: 0deg;
+	}
+	to {
+		rotate: 360deg;
+	}
+}
+
+.section-02 {
+	margin: 100px 0 0 0;
+	width: 100%;
+	height: auto;
+	background-color: #efefef;
+	display: flex;
+	justify-content: center;
+	align-items: start;
+	position: relative;
+	overflow: hidden;
+}
+
+.section-02 .section-02-wrap {
+	width: 100%;
+	height: auto;
+	max-width: 1920px;
+	min-width: 1500px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-flow: column nowrap;
+}
+
+.section-02 .section-02-wrap .section-02-logo {
+	padding: 150px 0 0;
+}
+
+.section-02 .section-02-wrap p {
+	padding: 50px 0 0;
+	font-weight: 350;
+	font-size: 16px;
+}
+
+.section-02 .section-02-wrap .section-02-swiper {
+	width: 100%;
+	padding: 50px 0;
+}
+.section-02 .section-02-wrap .section-02-swiper .swiper-wrapper {
+	padding: 0 50px;
+	margin: 0;
+	position: relative;
+	z-index: 1;
+}
+
+.section-02 .section-02-wrap .section-02-swiper .swiper-wrapper .swiper-slide {
+	padding: 0;
+	margin: 0;
+}
+
+.section-02 .section-02-wrap .section-02-swiper .swiper-wrapper .swiper-slide img {
+	width: 100%;
+	height: 100%;
+}
+
+.section-03 {
+	width: 100%;
+	height: 800px;
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: center;
+	align-items: center;
+}
+.section-03 h1 {
+	font-size: 30px;
+	margin: 30px 0;
+}
+
+.section-03 p {
+	font-size: 30px 0;
+}
+
+.section-03 .shampoo-product {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: center;
+}
+
+.section-03 .shampoo-product .shampoo-product-detail {
+	width: 20%;
+	margin: 20px 15px;
+}
+
+.section-03 .shampoo-product .shampoo-product-detail img {
+	width: 100%;
+}
+
+.section-03 .shampoo-product .shampoo-product-detail h3 {
+	width: 100%;
+	text-align: center;
+	font-size: 16px;
+	font-weight: 650;
+	margin: 5px 0;
+}
+
+.section-03 .shampoo-product .shampoo-product-detail span {
+	display: block;
+	width: 100%;
+	text-align: center;
+	margin: 5px 0;
+	font-size: 22px;
+	font-weight: 900;
+}
+.section-03 .shampoo-product .more {
+	width: 100%;
+	text-align: center;
+	font-size: 17px;
+}
+
+.section-04 {
+	width: 100%;
+	height: 400px;
+	background: url("https://cafunebeauty.cafe24.com/web/upload/free_design/banner_bg.png") center center no-repeat;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: column nowrap;
+}
+
+.section-04 p {
+	width: 60%;
+	font-size: 85px;
+	text-align: center;
+	color: #fff;
+}
+
+.section-04 .brand-view {
+	margin: 50px 0 0;
+	width: auto;
+	line-height: 35px;
+	text-align: center;
+	color: #fff;
+	font-size: 20px;
+	border-bottom: 1px solid #fff;
+}

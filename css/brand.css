@@ -1,0 +1,107 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: "Dancing Script", cursive;
+	font-optical-sizing: auto;
+	font-weight: 600;
+	font-style: normal;
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+ul,
+ol {
+	list-style: none;
+}
+
+.section-01 {
+	border-top: 0.5px solid #333;
+	width: 100%;
+	height: auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.section-01 .section-01-wrap {
+	width: 100%;
+	max-width: 1920px;
+	min-width: 1500px;
+	height: auto;
+	display: flex;
+	flex-flow: column nowrap;
+	align-items: center;
+}
+.section-01 .section-01-wrap .top {
+	width: 100%;
+	height: 200px;
+}
+
+.section-01 .section-01-wrap h1 {
+	width: 100%;
+	line-height: 200px;
+	text-align: center;
+	font-size: 35px;
+	font-weight: 700;
+}
+.section-01 .section-01-wrap .top .logo {
+	position: relative;
+	top: 0;
+	right: 0;
+}
+.section-01 .section-01-wrap .top .logo .inner-logo {
+	position: absolute;
+	z-index: 100;
+	bottom: 23px;
+	right: 253px;
+}
+.section-01 .section-01-wrap .top .logo .out-logo {
+	position: absolute;
+	z-index: 100;
+	bottom: 0;
+	right: 230px;
+	animation: rotate 10s infinite linear;
+}
+
+@keyframes rotate {
+	from {
+		rotate: 0deg;
+	}
+	to {
+		rotate: 360deg;
+	}
+}
+
+.section-01-wrap .product {
+	margin: 50px 0 50px;
+	width: 1400px;
+	height: auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+.section-01-wrap .product .product-detail {
+	width: 32%;
+}
+.section-01-wrap .product .product-detail img {
+	width: 100%;
+}
+
+.section-01-wrap .product .product-detail h3 {
+	margin: 10px 0 0;
+	width: 100%;
+	text-align: center;
+	font-size: 20px;
+}
+
+.section-01-wrap .product .product-detail span {
+	width: 100%;
+	text-align: center;
+	display: block;
+	font-size: 25px;
+	margin: 10px 0 0;
+	font-weight: 800;
+}
